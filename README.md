@@ -1,4 +1,4 @@
-# Mastering Embedded Linux Programming - Second Edition
+# Mastering Embedded Linux Programming – Second Edition
 
 This is the code repository for [Mastering Embedded Linux Programming - Second Edition](https://www.packtpub.com/networking-and-servers/mastering-embedded-linux-programming-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787283282), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 
@@ -11,7 +11,7 @@ By the end of the book , you will be able to derive a wide choice of solutions t
 
 ## Instructions and Navigation
 
-All of the code is organized into folders. For example, Chapter05.
+All of the code is organized into folders. For example, Chapter04.
 
 
 The code will look like the following:
