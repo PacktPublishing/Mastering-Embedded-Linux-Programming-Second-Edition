@@ -2,7 +2,7 @@
 
 PATH=${HOME}/x-tools/arm-unknown-linux-gnueabi/bin/:$PATH
 
-cd linux
+cd linux-stable
 if [ $? != 0 ]; then echo "ERROR"; exit; fi
 
 make ARCH=arm CROSS_COMPILE=arm-unknown-linux-gnueabi- mrproper

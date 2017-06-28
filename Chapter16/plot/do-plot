@@ -1,0 +1,15 @@
+# load "do-plot"
+set term png size 800,600
+set output "test1.png"
+set logscale y
+set xlabel "microseconds"
+set ylabel "samples"
+set title "No preempt"
+plot "bbb-yocto-nopreempt-floodping.dat" with filledcurves x1
+set output "test2.png"
+set title "Preempt"
+plot "bbb-yocto-preempt-floodping.dat" with filledcurves x1
+set output "test3.png"
+set title "RT"
+plot "bbb-yocto-rt-floodping.dat" with filledcurves x1
+
