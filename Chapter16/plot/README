@@ -1,0 +1,12 @@
+Notes on generating the latency diagrams
+----------------------------------------
+
+First you will need gnuplot. Everything is done at the
+command-line, so you can install the smaller "no X" package:
+
+$ sudo apt-get install gnuplot-nox
+
+Then, to generate the plots from the data files, run the do-plot file:
+
+$ gnuplot do-plot
+
