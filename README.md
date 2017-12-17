@@ -48,6 +48,3 @@ At the end of the ROM code phase, the next stage bootloader is present in on-chi
 
 * [Mastering Linux Kernel Development](https://www.packtpub.com/application-development/mastering-linux-kernel-development?utm_source=github&utm_medium=repository&utm_campaign=9781785883057)
 
-### Suggestions and Feedback
-
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
