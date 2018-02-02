@@ -7,7 +7,7 @@ LOCAL_CFLAGS ?= -Wall -g -lrt -pthread
 PROGRAM = shared-mem-demo
 
 $(PROGRAM): $(PROGRAM).c
-	$(CC) $(CFLAGS) $(LOCAL_CFLAGS) $(LDFLAGS) $^ -o $@
+	$(CC) $^ $(CFLAGS) $(LOCAL_CFLAGS) $(LDFLAGS) -o $@
 
 clean:
 	rm -f $(PROGRAM)
