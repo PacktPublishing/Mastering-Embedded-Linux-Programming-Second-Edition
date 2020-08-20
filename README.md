@@ -40,6 +40,12 @@ The code will look like the following:
 
 At the end of the ROM code phase, the next stage bootloader is present in on-chip memory and the ROM code jumps to the beginning of that code.
 
+## Errata
+	
+(Page 136) If you get errors after executing the commands mentioned in the book. Please click the below link to find the solution to get rid of those errors:
+	https://unix.stackexchange.com/questions/579640/u-boot-wrong-ramdisk-image-format-with-initramfs-on-beaglebone-black
+	 
+
 ## Related Embedded Linux Programming Products
 
 * [GNU/Linux Rapid Embedded Programming](https://www.packtpub.com/hardware-and-creative/gnulinux-rapid-embedded-programming?utm_source=github&utm_medium=repository&utm_campaign=9781786461803)
